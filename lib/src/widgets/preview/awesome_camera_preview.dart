@@ -123,7 +123,7 @@ class AwesomeCameraPreviewState extends State<AwesomeCameraPreview> {
     }
 
     return Container(
-      color: Colors.black,
+      color: Colors.white,
       child: OrientationBuilder(builder: (context, orientation) {
         return LayoutBuilder(
           builder: (_, constraints) {

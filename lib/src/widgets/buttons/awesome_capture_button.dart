@@ -110,10 +110,10 @@ class CameraButtonPainter extends CustomPainter {
       ..isAntiAlias = true;
     var radius = size.width / 2;
     var center = Offset(size.width / 2, size.height / 2);
-    bgPainter.color = Colors.white.withOpacity(.5);
+    bgPainter.color = Colors.black12;
     canvas.drawCircle(center, radius, bgPainter);
 
-    bgPainter.color = Colors.white;
+    bgPainter.color = Colors.white70;
     canvas.drawCircle(center, radius - 8, bgPainter);
   }
 
@@ -135,7 +135,7 @@ class VideoButtonPainter extends CustomPainter {
       ..isAntiAlias = true;
     var radius = size.width / 2;
     var center = Offset(size.width / 2, size.height / 2);
-    bgPainter.color = Colors.white.withOpacity(.5);
+    bgPainter.color = Colors.black45.withOpacity(.5);
     canvas.drawCircle(center, radius, bgPainter);
 
     if (isRecording) {
